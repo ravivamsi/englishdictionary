@@ -41,5 +41,20 @@ cd /usr/local/lib/node_modules
 
 Keep the machine awake
 ```bash
-$ npm start word
+$ npm start CVS
+```
+
+
+Sample response
+```json
+{
+    "id": "1018500",
+    "term": "CVS",
+    "url": "http://www.urbandictionary.com/define.php?term=CVS&defid=1018500",
+    "definition": "Also the name of a pharmacy",
+    "example": "Hey lets go to the CVs pharmacy",
+    "author": "von",
+    "author_url": "http://www.urbandictionary.com/author.php?author=von",
+    "posted": "2005-01-24T00:00:00+00:00"
+}
 ```

@@ -6,7 +6,7 @@
   // direct way
   client.get("http://urbanscraper.herokuapp.com/define/USA", function (data, response) {
       // parsed response body as js object
-      console.log(data);
+      console.log(data.term+" : " + data.definition);
       // raw response
       // console.log(response);
   });
