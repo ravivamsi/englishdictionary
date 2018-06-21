@@ -39,22 +39,28 @@ cd /usr/local/lib/node_modules
 > Windows XP - %USERPROFILE%\Application Data\npm\node_modules
 > Windows 7, 8 and 10 - %AppData%\npm\node_modules
 
-Keep the machine awake
+Get the meaning for one word
 ```bash
 $ npm start CVS
 ```
 
-
 Sample response
-```json
-{
-    "id": "1018500",
-    "term": "CVS",
-    "url": "http://www.urbandictionary.com/define.php?term=CVS&defid=1018500",
-    "definition": "Also the name of a pharmacy",
-    "example": "Hey lets go to the CVs pharmacy",
-    "author": "von",
-    "author_url": "http://www.urbandictionary.com/author.php?author=von",
-    "posted": "2005-01-24T00:00:00+00:00"
-}
+```
+CVS: Also the name of a pharmacy
+```
+
+
+Get the meaning of multiple words
+```bash
+$ npm start CVS AP USA what system
+```
+
+Output:
+
+```
+CVS : Also the name of a pharmacy
+AP : AP is a jewelry brand from switzerland which can cost up to 39k
+USA : The only country keeping penguins from coquering the Earth
+what : One of the only 3 words that Lil Jon says, the other two being "YEAH!" and "OKAY!"
+system : High powered, premium stereo system in a car, truck or van, capable of large amounts of bass and treble.
 ```

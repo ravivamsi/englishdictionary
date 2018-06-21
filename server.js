@@ -1,12 +1,12 @@
-
   var Client = require('node-rest-client').Client;
-
   var client = new Client();
+  var args = process.argv.slice(2);
 
-  // direct way
-  client.get("http://urbanscraper.herokuapp.com/define/USA", function (data, response) {
-      // parsed response body as js object
-      console.log(data.term+" : " + data.definition);
-      // raw response
-      // console.log(response);
+  args.forEach(function (val, index, array) {
+    client.get("http://urbanscraper.herokuapp.com/define/"+val, function (data, response) {
+        // parsed response body as js object
+        console.log(data.term+" : " + data.definition);
+        // console.log(response);
+    });
+
   });
