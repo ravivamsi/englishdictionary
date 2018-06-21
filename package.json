@@ -24,8 +24,6 @@
   },
   "homepage": "https://github.com/ravivamsi/englishdictionary#readme",
   "dependencies": {
-    "https": "^1.0.0",
-    "node-rest-client": "^3.1.0",
-    "request": "^2.87.0"
+    "node-rest-client": "^3.1.0"
   }
 }
