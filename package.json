@@ -1,0 +1,26 @@
+{
+  "name": "englishdictionary",
+  "version": "1.0.0",
+  "description": "Node Module to retrieve the Meanings for the English Words",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravivamsi/englishdictionary.git"
+  },
+  "keywords": [
+    "dictionary",
+    "english",
+    "meanings",
+    "abbrevations"
+  ],
+  "author": "Vamsi Ravi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravivamsi/englishdictionary/issues"
+  },
+  "homepage": "https://github.com/ravivamsi/englishdictionary#readme"
+}
